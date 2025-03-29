@@ -20,7 +20,7 @@ def mediana(arr: list):
 # 
 # 
 
-file = open("to_sie_sra","r")
+file = open("trends_data.txt","r")
 
 
 

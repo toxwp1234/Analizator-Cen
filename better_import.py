@@ -1,10 +1,15 @@
 import yfinance as yf
 import pandas as pd
 
-open('dzienne_custom_year', 'w').close()
+###Nazwa pliku
+
+file_name : str = "data.txt"
+
+
+open(file_name, 'w').close()
 
 ##od którego roku?
-start_year = 2016
+start_year = 2020
 ## do którgo roku
 end_year = 2024
 
@@ -41,7 +46,7 @@ months= {"01":"31",
 #od podanej daty
 
 
-file = open("dzienne_custom_year","a")
+file = open(file_name,"a")
 for year in range(start_year,end_year+1):
     for curr_month in months:
        

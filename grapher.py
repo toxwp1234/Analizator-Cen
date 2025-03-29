@@ -5,9 +5,9 @@ import numpy as np
 
 #download_data
 
-
-file_day = open("dzienne_custom_year","r")
-file_trend = open("to_sie_sra","r")
+##nazwy pliów otwieranych mogą być zmienine
+file_day = open("data.txt","r")
+file_trend = open("trends_data.txt","r")
 
 
 # OP - open price 
