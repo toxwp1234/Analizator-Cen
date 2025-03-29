@@ -4,7 +4,7 @@ import pandas as pd
 open('dzienne_custom_year', 'w').close()
 
 ##od którego roku?
-start_year = 2020
+start_year = 2016
 ## do którgo roku
 end_year = 2024
 
